@@ -1,0 +1,22 @@
+
+
+#logo {
+    float: left;
+    margin-left: 5px;
+}
+
+#logo-bar {
+    float: right;
+    width: 1050px;
+}
+
+nav {
+    float: right;
+}
+
+
+header {
+    position: fixed;
+    background: black;
+    color: white;
+}
