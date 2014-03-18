@@ -8,25 +8,43 @@ body {
 
 #logo {
     float: left;
-    margin: 6px 0 0 5px;
+    /*margin: 6px 0 0 5px*/;
 }
 
 #logo-bar {
-    float: right;
-    width: 100%;
+    float: left;
+    width: 80%;
+    z-index: 1;
+    background: black;
+    color: white;
+    padding: 0 10px;
 }
 
-.navbar {
+#navbar {
     position: fixed;
     top: 0;
     left: 0;
-    background: ;
+    width: 100%;
+    z-index: 2;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
 }
-nav {
-    float: right;
-    width: 25%;
-    font: 0.9em "Carrois Gothic SC", sans-serif;
-    color: black;
+
+#navbar nav {
+    border-left: 1px solid #ccc;
+}
+
+#navbar nav a {
+    display: inline-block;
+        width: 16.6666667%;
+        margin: 0;
+        padding: 22px 0;
+        text-transform: uppercase;
+        color: black;
+        text-align: center;
+        border-right: 1px solid #ccc;
+        text-decoration: none;
+        font: 1em "Carrois Gothic SC", sans-serif;
 }
 
 .selected {
@@ -35,24 +53,24 @@ nav {
 }
 
 header {
-    background: black;
-    color: white;
+    border-left: 1px solid #ccc;
 }
 
 section {
-	padding-top: 200px;
+	/*padding-top: 200px*/;
 }
 
 /*/// MEDIA ///*/
 
 figcaption {
-    font: 0.75em small-caps Garamond, serif;
+    font: 0.75em Garamond, serif;
     text-align: right;
+    color: #ccc;
 }
 
-img, video, audio {
+/*img, video, audio {
 	width: 100%;
-}
+}*/
 
 h1 {
 	font: 3em "Carrois Gothic SC", sans-serif;
@@ -63,13 +81,17 @@ footer {
 	text-align: center;
 	font: 0.75em Garamond, serif;
 	border-top: 1px solid #ccc;
+    margin: 20px 0 30px 0;
 }
 
 /*/// LAYOUT ///*/
 
-.container {
-	padding: 10px 0 0 10px;
+.wrapper {
+	width: 80%;
+    margin: 0px auto;
 }
+
+
 
 /*/// BACKGROUND ///*/
 
