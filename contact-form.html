@@ -2,19 +2,16 @@
 <head>
     <title>Walking the Dog - Contact</title>
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.0/normalize.min.css">
-     <link rel="stylesheet" href="css/style.css">
-     <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.7.1/modernizr.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.7.1/modernizr.min.js"></script>
 </head>
 
-<body>
-   <header>
-    <div class="wrapper">
-        <nav>
-            home
-            walkers
-            services
-            contact
-        </nav>
+    <body>
+       <header>
+        <div class="container">
+            <nav>
+               <a href="index.html">About</a><a href="#">Staff</a><a href="services.html">Services</a><a class="selected" href="contact-form.html">Contact</a>
+            </nav>
             <div id="logo">
                 <img src="images/basic_logo.jpg" alt="Walking the Dog">
             </div>
@@ -24,19 +21,18 @@
             </div>
         </header>
 
-<section>
-	<form action="login.php" method="post">
-    <input type="text" name="full-name" placeholder="Full Name" required>
-    <input type="email" name="email" placeholder="Email Address">
-    <input type="text" name="dog-type" placeholder="Type of Dog" required>
-    <input type="radio" name="sex" value="male">Male
-    <input type="radio" name="sex" value="female">Female
+        <section>
+            <form>
+            	<form action="login.php" method="post">
+                <input type="text" name="full-name" placeholder="Full Name" required>
+                <input type="email" name="email" placeholder="Email Address">
+                <input type="text" name="dog-type" placeholder="Type of Dog" required>
+                <input type="radio" name="sex" value="male">Male
+                <input type="radio" name="sex" value="female">Female
+                <textarea name="message"></textarea>
+                <input type="submit" value="submit">
+            </form>
+        </section>
 
-
-    <textarea name="message"></textarea>
-    <input type="submit" value="submit">
-</section>
-
-</form>
-</body>
+    </body>
 </html>
