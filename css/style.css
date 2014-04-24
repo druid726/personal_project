@@ -5,19 +5,19 @@
 
 
 body {
-  font: 1.15em "EB Garamond", serif;
+  font: 115% "EB Garamond", serif;
 }
 
 h1 {
-  font: 2em "Carrois Gothic SC", sans-serif;
+  font: 200% "Carrois Gothic SC", sans-serif;
  }
 
 h2 {
-  font: 1.5em "Carrois Gothic SC", sans-serif;  
+  font: 150% "Carrois Gothic SC", sans-serif;  
 }
 
 h3 {
-  font: 1.25em;
+  font: 125%;
   margin-bottom: 10px;
 }
 
@@ -37,6 +37,20 @@ th {
   color: white;
   font-weight: bold;
 }
+
+td {
+  text-align: center;
+}
+
+.service {
+  text-align: left;
+}
+
+.border-right {
+  border-right: 1px dotted #ccc;
+  padding-right: 30px;
+}
+
 
 /*////HEADER////*/
 
@@ -72,7 +86,7 @@ th {
   text-transform: uppercase;
   color: black;
   text-align: center;
-  font: 1em "Carrois Gothic SC", sans-serif;
+  font: 100% "Carrois Gothic SC", sans-serif;
   text-decoration: none;
 }
 
@@ -94,7 +108,7 @@ header {
 /*//// CONTACT FORM ////*/
 
 label {
-  font-size: 1.15em;
+  font-size: 100%;
 }
 
 input {
@@ -132,7 +146,7 @@ input[type="submit"]:hover {
 .main {
     overflow:hidden;
     width:350px;
-    background: url("../images/small_dog_paw_print_black.png") no-repeat 145px 31px;
+    background: url("../images/small_dog_paw_print_black.png") no-repeat 145px 28px;
     /* small_dog_paw_print_black.png is a 25x25 image */
 }
 select {
@@ -149,7 +163,7 @@ select {
 /*/// MEDIA ///*/
 
 figcaption {
-  font: 0.75em Garamond, serif;
+  font: 75% Garamond, serif;
   text-align: right;
   color: #ccc;
 }
@@ -251,7 +265,7 @@ section {
 
 footer {
   text-align: center;
-  font: 0.85em Garamond, serif;
+  font: 85% Garamond, serif;
   border-top: 1px solid #ccc;
   margin: 20px 0 30px 0;
   padding: 10px 0 20px;

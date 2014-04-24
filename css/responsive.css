@@ -1,0 +1,31 @@
+/*Responsive web site*/
+
+@media only screen and (max-width: 11164px) {
+	.wrapper {
+		width: 90%;
+	}
+}
+
+@media only screen and (max-width: 830px) {
+	body {
+		font-size: 90%;
+	}
+}
+
+@media only screen and (max-width: 720px) {
+	.col-1, .col-2 {
+	   width: 100%;
+	   margin-left: 0;
+	   float: none;  
+	 }
+
+	 .border-right {
+	   border: 0;
+	 }
+
+	 #details div {
+	   height: auto;
+	   padding-bottom: 10px;
+	 }
+} 
+
