@@ -24,8 +24,40 @@
 	 }
 
 	 #details div {
-	   height: auto;
-	   padding-bottom: 10px;
+	   padding-bottom: 5px;
+	 }
+
+	 #logo-bar {
+	 	margin-top: 20px;
+	 	max-height: 40px;
+	 }
+
+	#menu-links {
+	  display: none;
+	  background: white;
+	  clear: both;
+	}
+
+	 #navbar nav a.menu-icon {
+	   display: inline-block;
+	   float: right;
+	   font-size: 150%;
+	   padding: 10px 20px;
+	   width: auto;
 	 }
 } 
 
+@media only screen and (max-width: 640px) {
+	body {
+		font-size: 50%;
+	}
+
+	#logo-bar h1 {
+		visibility: hidden;
+	}
+
+	#logo-bar h2 {
+		visibility: hidden;
+	}
+
+}
